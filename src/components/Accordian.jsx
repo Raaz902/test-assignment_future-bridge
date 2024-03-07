@@ -22,10 +22,10 @@ export function Accordian() {
             <h1>Accordian component | Mohammad Raaz</h1>
             <hr />
 
-            <div style={{ marginTop: 20, textAlign: 'left' }}>
+            <div style={{ marginTop: 20, textAlign: 'left', border: '1px solid green', width: 300 }}>
                 {accordianItems.map((accordianItem, index) => {
                     return (
-                        <div style={{ padding: 7, width: 300 }}>
+                        <div key={index} style={{ padding: 7,  }}>
                             <span style={{ cursor: 'pointer' }} onClick={() => handleTitleClick(index)}>{accordianItem.title}</span>
                             <br />
                             {accordianItem.bodyVisible && <span style={{ opacity: 0.8, marginTop: 5, marginLeft: 5 }} >{accordianItem.body}</span>}
