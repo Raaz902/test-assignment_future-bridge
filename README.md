@@ -1,8 +1,14 @@
+UI looks like
+![image](https://github.com/Raaz902/test-assignment_future-bridge/assets/128868217/1459a75f-83a1-41eb-bcc6-3c221d5f2842)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+
+
 
 In the project directory, you can run:
 
